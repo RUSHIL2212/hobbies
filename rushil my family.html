@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1 style="background-color:WHITE;"><i>MY FAMILY<i></h1>
+
+<img src="/D:/me%20with%20sis.jpg" alt="rushil with sis"style="width:550px;height:550px;" >
+<img src="/D:/new%20year.jpg" alt="rushil with sis"style="width:550px;height:550px;" >
+</div>
+<head>
+<style>
+body{
+  background-image: url('/C:/Users/ARUSHI/Downloads/5ccd7544f3908ca293f66e9b186015df.jpg');
+}
+</div>
+<head>
+<style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+</style>
+</head>
+<body">
+
+<h2>ABOUT MY FAMILY </h2>
+
+<button class="accordion">MY DAD</button>
+<div class="panel">
+  <p>MY FATHER'S NAME IS COL.RAHUL SINHA.HE IS PRETTY COOL.I LOVE HANGING OUT WITH HIM</p>
+</div>
+
+<button class="accordion">MY MOM</button>
+<div class="panel">
+  <p>MY MOTHERS NAME IS JYOTSNA SINHA. SHE IS THE BEST.SHE IS ALSO THE COOLEST MOM</p>
+</div>
+
+<button class="accordion">MY SIS</button>
+<div class="panel">
+  <p>MY SISTER NAME IS ARUSHI.SHE IS IN 12TH. WE BOTH STUDY IN THE SAME SCHOOL.</p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+</body>
+</html>
